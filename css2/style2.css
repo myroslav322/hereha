@@ -760,11 +760,47 @@ button {
         text-align: center;         
     }
 
+    .social {
+        padding: 0px 0px;
+    }
+
 
     
 }
 
 @media only screen and (max-width: 720px) {
+    
+    .intro_title {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .intro_suptitle {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .intro_inner {
+        text-align: center;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+    .intro_button{
+        margin: 0 auto;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer_text {
+        margin: 0px 0px;
+    }
+
+    
+
     .buy_page {
       display: block;
       width: 80%;
